@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mood Movie Matcher</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Mood Movie Matcher</h1>
+        <div id="mood-selection">
+            <button class="mood-btn" data-mood="happy">😊 Happy</button>
+            <button class="mood-btn" data-mood="sad">😢 Sad</button>
+            <button class="mood-btn" data-mood="romantic">❤️ Romantic</button>
+            <button class="mood-btn" data-mood="thoughtful">🤔 Thoughtful</button>
+        </div>
+        <div id="recommendations" class="hidden">
+            <h2 id="mood-title"></h2>
+            <div id="movie-list"></div>
+            <button id="reset-btn">Choose Another Mood</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
